@@ -1,6 +1,8 @@
 {
+  "headings": {
+    "siteTitle": "Gatsby Site"
+  },
   "phrases": {
-    "loading": "Loading",
-    "copyright": "Creditas 2019. All rights reserved."
+    "copyright": "All rights reserved."
   }
 }
