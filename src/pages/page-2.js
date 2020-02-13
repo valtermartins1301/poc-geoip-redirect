@@ -3,14 +3,19 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { useTranslation } from "react-i18next"
 
-const SecondPage = () => (
-  <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+const SecondPage = () => {
+  const t = useTranslation()
+
+  return (
+    <Layout>
+      <SEO title="Page two" />
+      <h1>{t('page2:headings.title')}</h1>
+      <p>{t('page2:headings.subtitle')}</p>
+      <Link to="/">{t('page2:labels.navigate')}</Link>
+    </Layout>
+  )
+}
 
 export default SecondPage

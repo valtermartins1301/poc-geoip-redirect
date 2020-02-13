@@ -1,0 +1,12 @@
+{
+  "headings": {
+    "title": "Hi people,",
+    "subtitle": "Welcome to your new Gatsby site."
+  },
+  "phrases": {
+    "build": "Now go build something great."
+  },
+  "labels": {
+    "goTo": "Go to page {{pageNumber}}"
+  }
+}
