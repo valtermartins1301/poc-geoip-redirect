@@ -10,8 +10,8 @@ const NotFoundPage = () => {
   return (
     <Layout  siteTitle={t('commons:headings.siteTitle')}>
       <SEO title="404: Not found" />
-      <h1>{t('not-found:headings.title')}</h1>
-      <p>{t('not-found:phrases.page_not_found')}</p>
+      <h1>{t('notFound:headings.title')}</h1>
+      <p>{t('notFound:phrases.page_not_found')}</p>
     </Layout>
   )
 }
