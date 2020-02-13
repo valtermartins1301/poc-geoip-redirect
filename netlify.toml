@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/?lang=\"en\""
+  to = "/:splat?lang=\"en\""
   status = 200
   conditions = {Country = ["us", "gb"]}
