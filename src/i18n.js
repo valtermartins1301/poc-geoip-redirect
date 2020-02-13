@@ -29,7 +29,7 @@ i18n
     detection: detectionOptions,
     resources,
 
-    fallbackLng: 'en',
+    fallbackLng: 'pt-BR',
 
     defaultNS: ['commons'],
 
