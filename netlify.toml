@@ -7,12 +7,12 @@
 
 [[redirects]]
   from = "/*"
-  to = "/:splat?lang=\"pt-BR\""
+  to = "/pt-BR/:splat"
   status = 302
   conditions = {Country = ["br", "pt"]}
 
 [[redirects]]
   from = "/*"
-  to = "/:splat?lang=\"en\""
+  to = "/en/:splat"
   status = 302
   conditions = {Country = ["us", "gb"]}
