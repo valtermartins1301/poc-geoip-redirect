@@ -9,10 +9,10 @@
   from = "/*"
   to = "/:splat?lang='pt-BR'"
   status = 302
-  conditions = {Language = ["pt"], Country = ["BR", "PT"]}
+  conditions = {Country = ["br", "pt"]}
 
 [[redirects]]
   from = "/*"
   to = "/:splat?lang='en'"
   status = 302
-  conditions = {Language = ["en"], Country = ["US", "GB"]}
+  conditions = {Country = ["us", "gb"]}
